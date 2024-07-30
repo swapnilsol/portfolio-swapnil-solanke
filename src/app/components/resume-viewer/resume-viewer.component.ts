@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './resume-viewer.component.css'
 })
 export class ResumeViewerComponent {
-  pdfSrc='https://s29.q4cdn.com/175625835/files/doc_downloads/test.pdf'
+  pdfSrc='assets/Swapnil_Solanke_FET.pdf'
 
 }

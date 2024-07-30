@@ -1,5 +1,15 @@
-<pdf-viewer [src]="pdfSrc"
-              [render-text]="true"
-              [original-size]="false"
-              style="width: 400px; height: 500px"
-  ></pdf-viewer>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <pdf-viewer [src]="pdfSrc"
+            [render-text]="true"
+            [original-size]="false"
+            [stick-to-page]="true"
+            [zoom-scale]="'page-width'"
+        ></pdf-viewer>
+        </div>
+    </div>
+   
+</div>
+
