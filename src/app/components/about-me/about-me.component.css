@@ -1,0 +1,31 @@
+.mb-3{
+    padding: 1rem;
+}
+.pro-img{
+    border: 1px solid #d3d3d3;
+    border-radius: 50% !important;
+}
+h1.name{
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px 0;
+}
+h1::after{
+    margin: 10px auto;
+    content: "";
+    border-bottom: 3px solid #d3d3d3;
+    width: 100px;
+    display: block;
+}
+.job-title{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.sub-title{
+    font-size: 1.4em;}
+    
+.redirect-to{
+    margin: 15px 0;
+}
